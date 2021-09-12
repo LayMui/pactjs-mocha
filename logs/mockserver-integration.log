@@ -1,5 +1,5 @@
-I, [2021-09-12T15:14:32.989622 #55430]  INFO -- : Registered expected interaction GET /animals/available
-D, [2021-09-12T15:14:32.989820 #55430] DEBUG -- : {
+I, [2021-09-12T19:59:25.751500 #82733]  INFO -- : Registered expected interaction GET /animals/available
+D, [2021-09-12T19:59:25.751684 #82733] DEBUG -- : {
   "description": "a request for all animals",
   "providerState": "is not authenticated",
   "request": {
@@ -13,13 +13,13 @@ D, [2021-09-12T15:14:32.989820 #55430] DEBUG -- : {
   },
   "metadata": null
 }
-I, [2021-09-12T15:14:33.005084 #55430]  INFO -- : Received request GET /animals/available
-D, [2021-09-12T15:14:33.005219 #55430] DEBUG -- : {
+I, [2021-09-12T19:59:25.766485 #82733]  INFO -- : Received request GET /animals/available
+D, [2021-09-12T19:59:25.766592 #82733] DEBUG -- : {
   "path": "/animals/available",
   "query": "",
   "method": "get",
   "headers": {
-    "Host": "localhost:58874",
+    "Host": "localhost:64228",
     "Accept-Encoding": "gzip, deflate",
     "User-Agent": "node-superagent/3.8.3",
     "Authorization": "Bearer token",
@@ -27,16 +27,16 @@ D, [2021-09-12T15:14:33.005219 #55430] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2021-09-12T15:14:33.005468 #55430]  INFO -- : Found matching response for GET /animals/available
-D, [2021-09-12T15:14:33.005541 #55430] DEBUG -- : {
+I, [2021-09-12T19:59:25.766881 #82733]  INFO -- : Found matching response for GET /animals/available
+D, [2021-09-12T19:59:25.766952 #82733] DEBUG -- : {
   "status": 401,
   "headers": {
   }
 }
-I, [2021-09-12T15:14:33.012521 #55430]  INFO -- : Verifying - interactions matched
-I, [2021-09-12T15:14:33.016854 #55430]  INFO -- : Cleared interactions
-I, [2021-09-12T15:14:33.023685 #55430]  INFO -- : Registered expected interaction GET /animals/available
-D, [2021-09-12T15:14:33.023920 #55430] DEBUG -- : {
+I, [2021-09-12T19:59:25.773664 #82733]  INFO -- : Verifying - interactions matched
+I, [2021-09-12T19:59:25.778555 #82733]  INFO -- : Cleared interactions
+I, [2021-09-12T19:59:25.784602 #82733]  INFO -- : Registered expected interaction GET /animals/available
+D, [2021-09-12T19:59:25.784826 #82733] DEBUG -- : {
   "description": "a request for all animals",
   "providerState": "Has some animals",
   "request": {
@@ -131,13 +131,13 @@ D, [2021-09-12T15:14:33.023920 #55430] DEBUG -- : {
   },
   "metadata": null
 }
-I, [2021-09-12T15:14:33.029682 #55430]  INFO -- : Received request GET /animals/available
-D, [2021-09-12T15:14:33.029806 #55430] DEBUG -- : {
+I, [2021-09-12T19:59:25.790244 #82733]  INFO -- : Received request GET /animals/available
+D, [2021-09-12T19:59:25.790362 #82733] DEBUG -- : {
   "path": "/animals/available",
   "query": "",
   "method": "get",
   "headers": {
-    "Host": "localhost:58874",
+    "Host": "localhost:64228",
     "Accept-Encoding": "gzip, deflate",
     "User-Agent": "node-superagent/3.8.3",
     "Authorization": "Bearer token",
@@ -145,8 +145,8 @@ D, [2021-09-12T15:14:33.029806 #55430] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2021-09-12T15:14:33.030194 #55430]  INFO -- : Found matching response for GET /animals/available
-D, [2021-09-12T15:14:33.030579 #55430] DEBUG -- : {
+I, [2021-09-12T19:59:25.790667 #82733]  INFO -- : Found matching response for GET /animals/available
+D, [2021-09-12T19:59:25.790935 #82733] DEBUG -- : {
   "status": 200,
   "headers": {
     "Content-Type": "application/json; charset=utf-8"
@@ -229,10 +229,10 @@ D, [2021-09-12T15:14:33.030579 #55430] DEBUG -- : {
     "min": 2
   }
 }
-I, [2021-09-12T15:14:33.038453 #55430]  INFO -- : Verifying - interactions matched
-I, [2021-09-12T15:14:33.042420 #55430]  INFO -- : Cleared interactions
-I, [2021-09-12T15:14:33.048755 #55430]  INFO -- : Registered expected interaction GET /animals/1
-D, [2021-09-12T15:14:33.049026 #55430] DEBUG -- : {
+I, [2021-09-12T19:59:25.799140 #82733]  INFO -- : Verifying - interactions matched
+I, [2021-09-12T19:59:25.803587 #82733]  INFO -- : Cleared interactions
+I, [2021-09-12T19:59:25.809752 #82733]  INFO -- : Registered expected interaction GET /animals/1
+D, [2021-09-12T19:59:25.810119 #82733] DEBUG -- : {
   "description": "a request for an animal with ID 1",
   "providerState": "Has an animal with ID 1",
   "request": {
@@ -333,13 +333,13 @@ D, [2021-09-12T15:14:33.049026 #55430] DEBUG -- : {
   },
   "metadata": null
 }
-I, [2021-09-12T15:14:33.056396 #55430]  INFO -- : Received request GET /animals/11
-D, [2021-09-12T15:14:33.056524 #55430] DEBUG -- : {
+I, [2021-09-12T19:59:25.815077 #82733]  INFO -- : Received request GET /animals/11
+D, [2021-09-12T19:59:25.815215 #82733] DEBUG -- : {
   "path": "/animals/11",
   "query": "",
   "method": "get",
   "headers": {
-    "Host": "localhost:58874",
+    "Host": "localhost:64228",
     "Accept-Encoding": "gzip, deflate",
     "User-Agent": "node-superagent/3.8.3",
     "Authorization": "Bearer token",
@@ -347,8 +347,8 @@ D, [2021-09-12T15:14:33.056524 #55430] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2021-09-12T15:14:33.056723 #55430]  INFO -- : Found matching response for GET /animals/1
-D, [2021-09-12T15:14:33.056964 #55430] DEBUG -- : {
+I, [2021-09-12T19:59:25.815420 #82733]  INFO -- : Found matching response for GET /animals/1
+D, [2021-09-12T19:59:25.815697 #82733] DEBUG -- : {
   "status": 200,
   "headers": {
     "Content-Type": "application/json; charset=utf-8"
@@ -427,10 +427,10 @@ D, [2021-09-12T15:14:33.056964 #55430] DEBUG -- : {
     }
   }
 }
-I, [2021-09-12T15:14:33.061827 #55430]  INFO -- : Verifying - interactions matched
-I, [2021-09-12T15:14:33.067053 #55430]  INFO -- : Cleared interactions
-I, [2021-09-12T15:14:33.074105 #55430]  INFO -- : Registered expected interaction GET /animals/100
-D, [2021-09-12T15:14:33.074216 #55430] DEBUG -- : {
+I, [2021-09-12T19:59:25.820921 #82733]  INFO -- : Verifying - interactions matched
+I, [2021-09-12T19:59:25.825658 #82733]  INFO -- : Cleared interactions
+I, [2021-09-12T19:59:25.831441 #82733]  INFO -- : Registered expected interaction GET /animals/100
+D, [2021-09-12T19:59:25.831594 #82733] DEBUG -- : {
   "description": "a request for an animal with ID 100",
   "providerState": "Has no animals",
   "request": {
@@ -447,13 +447,13 @@ D, [2021-09-12T15:14:33.074216 #55430] DEBUG -- : {
   },
   "metadata": null
 }
-I, [2021-09-12T15:14:33.079930 #55430]  INFO -- : Received request GET /animals/100
-D, [2021-09-12T15:14:33.080103 #55430] DEBUG -- : {
+I, [2021-09-12T19:59:25.837343 #82733]  INFO -- : Received request GET /animals/100
+D, [2021-09-12T19:59:25.837478 #82733] DEBUG -- : {
   "path": "/animals/100",
   "query": "",
   "method": "get",
   "headers": {
-    "Host": "localhost:58874",
+    "Host": "localhost:64228",
     "Accept-Encoding": "gzip, deflate",
     "User-Agent": "node-superagent/3.8.3",
     "Authorization": "Bearer token",
@@ -461,16 +461,16 @@ D, [2021-09-12T15:14:33.080103 #55430] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2021-09-12T15:14:33.080313 #55430]  INFO -- : Found matching response for GET /animals/100
-D, [2021-09-12T15:14:33.080387 #55430] DEBUG -- : {
+I, [2021-09-12T19:59:25.837631 #82733]  INFO -- : Found matching response for GET /animals/100
+D, [2021-09-12T19:59:25.837690 #82733] DEBUG -- : {
   "status": 404,
   "headers": {
   }
 }
-I, [2021-09-12T15:14:33.086452 #55430]  INFO -- : Verifying - interactions matched
-I, [2021-09-12T15:14:33.091102 #55430]  INFO -- : Cleared interactions
-I, [2021-09-12T15:14:33.096254 #55430]  INFO -- : Registered expected interaction POST /animals
-D, [2021-09-12T15:14:33.096419 #55430] DEBUG -- : {
+I, [2021-09-12T19:59:25.842536 #82733]  INFO -- : Verifying - interactions matched
+I, [2021-09-12T19:59:25.847124 #82733]  INFO -- : Cleared interactions
+I, [2021-09-12T19:59:25.853311 #82733]  INFO -- : Registered expected interaction POST /animals
+D, [2021-09-12T19:59:25.853472 #82733] DEBUG -- : {
   "description": "a request to create a new mate",
   "request": {
     "method": "POST",
@@ -537,8 +537,8 @@ D, [2021-09-12T15:14:33.096419 #55430] DEBUG -- : {
   },
   "metadata": null
 }
-I, [2021-09-12T15:14:33.102716 #55430]  INFO -- : Received request POST /animals
-D, [2021-09-12T15:14:33.102945 #55430] DEBUG -- : {
+I, [2021-09-12T19:59:25.859229 #82733]  INFO -- : Received request POST /animals
+D, [2021-09-12T19:59:25.859499 #82733] DEBUG -- : {
   "path": "/animals",
   "query": "",
   "method": "post",
@@ -567,15 +567,15 @@ D, [2021-09-12T15:14:33.102945 #55430] DEBUG -- : {
   "headers": {
     "Content-Length": "322",
     "Content-Type": "application/json; charset=utf-8",
-    "Host": "localhost:58874",
+    "Host": "localhost:64228",
     "Accept-Encoding": "gzip, deflate",
     "User-Agent": "node-superagent/3.8.3",
     "Connection": "close",
     "Version": "HTTP/1.1"
   }
 }
-I, [2021-09-12T15:14:33.103319 #55430]  INFO -- : Found matching response for POST /animals
-D, [2021-09-12T15:14:33.103440 #55430] DEBUG -- : {
+I, [2021-09-12T19:59:25.860017 #82733]  INFO -- : Found matching response for POST /animals
+D, [2021-09-12T19:59:25.860161 #82733] DEBUG -- : {
   "status": 200,
   "headers": {
     "Content-Type": "application/json; charset=utf-8"
@@ -606,6 +606,6 @@ D, [2021-09-12T15:14:33.103440 #55430] DEBUG -- : {
     }
   }
 }
-I, [2021-09-12T15:14:33.108214 #55430]  INFO -- : Verifying - interactions matched
-I, [2021-09-12T15:14:33.112311 #55430]  INFO -- : Cleared interactions
-I, [2021-09-12T15:14:33.117585 #55430]  INFO -- : Writing pact for e2e Provider Example to /Users/laymui/dev/taiger/pactjs-jest/pacts/e2e_consumer_example-e2e_provider_example.json
+I, [2021-09-12T19:59:25.864748 #82733]  INFO -- : Verifying - interactions matched
+I, [2021-09-12T19:59:25.869779 #82733]  INFO -- : Cleared interactions
+I, [2021-09-12T19:59:25.874644 #82733]  INFO -- : Writing pact for Animal Profile Service to /Users/laymui/dev/taiger/pactjs-jest/pacts/matching_service-animal_profile_service.json

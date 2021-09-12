@@ -1,9 +1,9 @@
 {
   "consumer": {
-    "name": "e2e Consumer Example"
+    "name": "Matching Service"
   },
   "provider": {
-    "name": "e2e Provider Example"
+    "name": "Animal Profile Service"
   },
   "interactions": [
     {
