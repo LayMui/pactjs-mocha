@@ -109,3 +109,10 @@ curl -H "Authorization: Bearer 1234" -X GET http://localhost:8080/suggestions/1
 
 ## Viewing contracts with the Pact Broker
 
+export PACTBROKERURL=https://laymui-toh.pactflow.io
+#export PACTBROKERURL=http://localhost:9292
+export PACTBROKERTOKEN=xxxxxx
+
+## Todo: Add to CircleCI
+
+https://circleci.com/docs/2.0/env-vars/

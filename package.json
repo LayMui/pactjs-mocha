@@ -12,7 +12,9 @@
     "can-i-deploy:provider": "pact-broker can-i-deploy --pacticipant 'Animal Profile Service' --latest --broker-base-url $PACTBROKERURL --broker-token $PACTBROKERTOKEN",
     "api": "concurrently 'npm run provider' 'npm run consumer'",
     "consumer": "node ./consumerService.js",
-    "provider": "node ./providerService.js"
+    "provider": "node ./providerService.js",
+    "create:provider:tag": "pact-broker create-version-tag --pacticipant 'Matching Service' -version 1.0.0 --tag master --broker-base-url $PACTBROKERURL",
+    "create:consumer:tag": "pact-broker create-version-tag --pacticipant 'Animal Profile Service' --version $CIRCLE_SHA1 --tag master --broker-base-url $PACTBROKERURL"
   },
   "author": "matt.fellows@onegeek.com.au",
   "license": "MIT",
